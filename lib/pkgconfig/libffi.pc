@@ -1,0 +1,11 @@
+prefix=/Volumes/Mac/Anaconda/anaconda3/envs/dj4ch02
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Volumes/Mac/Anaconda/anaconda3/envs/dj4ch02/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

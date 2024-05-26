@@ -1,0 +1,13 @@
+prefix=/Volumes/Mac/Anaconda/anaconda3/envs/dj4ch02
+exec_prefix=/Volumes/Mac/Anaconda/anaconda3/envs/dj4ch02
+libdir=/Volumes/Mac/Anaconda/anaconda3/envs/dj4ch02/lib
+sharedlibdir=/Volumes/Mac/Anaconda/anaconda3/envs/dj4ch02/lib
+includedir=/Volumes/Mac/Anaconda/anaconda3/envs/dj4ch02/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

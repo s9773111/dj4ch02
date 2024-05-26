@@ -1,0 +1,5 @@
+#!/Volumes/Mac/Anaconda/anaconda3/envs/dj4ch02/bin/python3.11
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

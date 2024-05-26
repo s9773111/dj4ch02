@@ -1,0 +1,5 @@
+#!/Volumes/Mac/Anaconda/anaconda3/envs/dj4ch02/bin/python3.11
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

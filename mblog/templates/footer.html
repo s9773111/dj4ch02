@@ -1,0 +1,8 @@
+<!-- footer.html -->
+{% block footer %}
+    {% if now %}
+        <p style='font-family: Heiti TC;'>Current Time：{{now}}</p>
+    {% else %}
+        <p style='font-family: Heiti TC;'>The content of this article comes from the Internet. If there is any copyright infringement, please send a letter to notify us of removal...</p>
+    {% endif %}
+{% endblock %}

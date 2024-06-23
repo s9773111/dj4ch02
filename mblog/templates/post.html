@@ -1,0 +1,13 @@
+<!-- post.html -->
+{% extends 'base.html' %}
+{% block title %} {{post.title}} - AI article {%endblock%}
+{% block headmessage %} 
+    <h3 style='font-family: Heiti TC;'>{{post.title}}</h3>
+    <a style='font-family: Heiti TC;' href='/'>回首頁</a>
+{% endblock %}
+
+{% block content %}
+    <p style='font-family: Heiti TC; font-size: 14pt; letter-spacing:2pt'>
+        {{post.body | safe}}
+    </p>
+{% endblock %}
